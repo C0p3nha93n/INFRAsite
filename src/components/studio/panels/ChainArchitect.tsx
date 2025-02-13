@@ -6,7 +6,7 @@ export const ChainArchitect = () => {
   return (
     <div className="p-4 space-y-6">
       <h2 className="text-xl font-bold flex items-center gap-2">
-        <img src="./src/INFRAstudio good.png" alt="INFRAstudio" className="h-8" />
+        <img src="/INFRAstudio good.png" alt="INFRAstudio" className="h-8" />
       </h2>
 
       {/* Topology Builder */}

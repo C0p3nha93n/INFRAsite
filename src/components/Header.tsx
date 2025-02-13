@@ -41,7 +41,7 @@ export const Header = () => {
         <div className="flex items-center space-x-8">
           <a href="/" className="flex items-center space-x-2 text-white">
             <img 
-              src="./src/INFRASTRUKT w symbol.png" 
+              src="/INFRASTRUKT w symbol.png" 
               alt="INFRASTRUKT" 
               className="h-8 object-contain"
             />

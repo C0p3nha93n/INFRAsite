@@ -25,7 +25,7 @@ export const Hero = () => {
         initial={{ scale: 0.8 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.8 }}
-        src="./src/INFRA.png"
+        src="/INFRA.png"
         alt="INFRA"
         className="max-w-[1000px] w-full mb-4"
       />
