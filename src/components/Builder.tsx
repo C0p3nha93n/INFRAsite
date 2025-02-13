@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MessageSquare, ArrowUp, Database, Network } from 'lucide-react';
 import { CrossChainToolkit } from './studio/panels/CrossChainToolkit';
@@ -8,12 +8,10 @@ export const Builder = () => {
   const [typedText, setTypedText] = useState('Anything I can assist you with?');
   
   const handleGoToStudio = () => {
-    window.location.hash = 'studio';
-    window.location.reload(); // Ensure proper reload when hash changes
+    window.location.href = 'https://studio.infrastrukt.dev';
   };
   
   return (
-    
     <section className="min-h-screen bg-black py-5 px-4">
       
       <motion.h2

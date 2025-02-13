@@ -12,7 +12,7 @@ export const Header = () => {
   });
   const { disconnect } = useDisconnect();
 
-  const isStudio = window.location.hash === '#studio';
+  const isStudio = window.location.hostname.startsWith('studio.');
 
   const handleConnect = () => {
     if (isConnected) {
@@ -23,8 +23,7 @@ export const Header = () => {
   };
 
   const handleLaunchApp = () => {
-    window.location.hash = 'studio';
-    window.location.reload(); // Ensure proper reload when hash changes
+    window.location.href = 'https://studio.infrastrukt.dev';
   };
 
   const buttonText = isStudio 

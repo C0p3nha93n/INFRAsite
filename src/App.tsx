@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 
 function App() {
   // In a real app, we'd use proper routing
-  const isStudio = window.location.hash === '#studio';
+  const isStudio = window.location.hostname.startsWith('studio.');
 
   return (
     <div className="min-h-screen bg-black text-white">
