@@ -2,8 +2,6 @@ import React from 'react';
 import { Github, Twitter } from 'lucide-react';
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
 import { injected } from 'wagmi/connectors';
-import { walletConnect } from 'wagmi/connectors';
-import { ethers } from 'ethers';
 
 export const Header = () => {
   const { isConnected, address } = useAccount();
@@ -38,7 +36,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 bg-black bg-opacity-90 backdrop-blur-sm z-50">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <div className="flex items-center space-x-8">
-          <a href="/" className="flex items-center space-x-2 text-white">
+          <a href="https://infrastrukt.dev" className="flex items-center space-x-2 text-white">
             <img 
               src="/INFRASTRUKT w symbol.png" 
               alt="INFRASTRUKT" 
