@@ -6,7 +6,7 @@ export const Hero = () => {
   const [copied, setCopied] = useState(false);
   const contractAddress = "";
   const tokenSymbol = "";
-  const contractSuffix = "NOT LAUNCHED YET"; // Awewtvamt7MMxuq4gadK41N663ejeCFUv74QeE6Lpump
+  const contractSuffix = "FYzVBY19stotNE3JZ9H43R53q8GgbB22xs4Mvcazpump"; // Awewtvamt7MMxuq4gadK41N663ejeCFUv74QeE6Lpump
   
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress + tokenSymbol + contractSuffix);
